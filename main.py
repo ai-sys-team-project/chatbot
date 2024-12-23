@@ -33,7 +33,7 @@ kwargs = {
 
 }
 llm = ChatOpenAI(
-    api_key="sk-proj-eIHTi7cUfaONgyffJ2E8T3BlbkFJizj14PZd0boMuMunsGCe",
+    api_key="",
     model_name='gpt-4o', **params, model_kwargs = kwargs)
 
 loader = CSVLoader(file_path='test_AI.csv',encoding='unicode_escape')
